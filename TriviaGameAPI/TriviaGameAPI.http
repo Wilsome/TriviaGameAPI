@@ -1,0 +1,6 @@
+@TriviaGameAPI_HostAddress = http://localhost:5245
+
+GET {{TriviaGameAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
