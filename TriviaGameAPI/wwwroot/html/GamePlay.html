@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Actual Game page</title>
+</head>
+<body>
+    <div id="container">
+        <div id="title-div">
+            <h2>Super awesome trivia game</h2>
+        </div>
+        <div id="player-round-container">
+            <h2 id="current-player"></h2>
+            <h3>Round: <span id="current-round"></span> / <span id="total-rounds"></span></h3>
+            <div id="player-score">Score: <span id="current-score">0</span></div>
+        </div>
+        <div id="question-container">
+            <h3 id="question-title">Question:</h3>
+            <h3 id="question-display">This is a test question?</h3>
+        </div>
+        <div id="answer-container">
+            <h3 id="answer-title">Answer Options:</h3>
+            <div id="answer-options">
+                <!-- Answer options will be dynamically generated here -->
+            </div>  
+        </div>
+        <div id="feedback" style="display: none;">
+            <p id="feedback-text"></p>
+        </div>
+        
+        <div id="button-container">
+            <button id="answer-button" type="submit">Answer</button>
+            <button id="exit-button">Exit</button>
+        </div>
+        <div id="leaderboard-container">
+            <h3 id="leaderboard-title">Leaderboard:</h3>
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/gamePlay.js"></script>
+</body>
+</html>

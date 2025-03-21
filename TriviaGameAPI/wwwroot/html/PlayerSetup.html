@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Player Setup page</title>
+</head>
+<body>
+    <h2>Please select number of players</h2>
+
+<label for="playerSelect">Number of Players:</label>
+<select id="player-select" name="player-select">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>    
+    <option value="-1" selected>...</option>    
+</select>
+<br>
+<br>
+
+<fieldset id="player-container" hidden="true"></fieldset>
+
+    <button id="confirm-button" type="submit">Confirm</button>
+    <button id="exit-button" type="submit">Exit</button>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/playerSetup.js"></script>
+</body>
+</html>
